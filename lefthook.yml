@@ -1,0 +1,7 @@
+# Lefthook configuration
+# Docs: https://lefthook.dev/configuration/
+
+commit-msg:
+  jobs:
+    - name: validate commit message
+      run: sh scripts/validate-commit-msg.sh {1}
